@@ -35,4 +35,4 @@ def my_pipeline():
 
 
 if __name__ == "__main__":
-    kfp.compiler.Compiler().compile(my_pipeline, "my-pipeline.zip")
+    kfp.compiler.Compiler().compile(my_pipeline, "kubeflow-pipeline.zip")
